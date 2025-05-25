@@ -369,7 +369,7 @@ static RESULT drv_lad(void)
                 jst = 0;
             else
             {
-                static jra[7] = { 0, -1, -1, 0, 0, 1, 1 };
+                static int jra[7] = { 0, -1, -1, 0, 0, 1, 1 };
                 int jc,jr;
 
                 over_der(row,col);
